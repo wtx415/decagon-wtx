@@ -23,3 +23,8 @@ This repository contains the code to run the RAG pipeline for Notion help articl
   - Note: Set the `OPENAI_API_KEY` environment variable in the `.env` file
 
 3. To see the resulting datasets, please check the `datasets` folder.
+
+## Disclaimer
+- The datasets are stored using git lfs. However, the raw dataset that is expected at the path
+`datasets/notion/raw/data.json` is not stored in the repository due to its large size that also exceeds the LFS size limit.
+To generate the raw dataset, please run the script `python datajobs/notion/script/scrape_help_articles.py`.
