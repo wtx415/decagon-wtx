@@ -1,0 +1,2 @@
+datasets/notion/processed/*.json filter=lfs diff=lfs merge=lfs -text
+datasets/notion/raw/metadata.json filter=lfs diff=lfs merge=lfs -text

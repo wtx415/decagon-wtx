@@ -1,0 +1,5 @@
+.copilot
+.idea/
+*.pyc
+venv/
+datasets/notion/raw/data.json # This is a large file that is also too big for LFS. So ignore it.
